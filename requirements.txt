@@ -24,7 +24,7 @@ cryptography==2.6.1
 cssselect==1.0.3
 decorator==4.4.0
 defusedxml==0.5.0
-Django==2.2.3
+Django==2.2.10
 dnspython==1.16.0
 docutils==0.14
 EasyProcess==0.2.5
