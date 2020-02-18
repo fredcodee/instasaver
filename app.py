@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import requests
+import os
 from time import sleep
 from bs4 import BeautifulSoup as soup
 
@@ -12,7 +13,7 @@ options.add_argument('--disable-gpu')
 options.add_argument('start-maximized')
 options.add_argument('disable-infobars')
 options.add_argument("--disable-extensions")
-CHROMEDRIVER_PATH = "C:\\Users\\Windows 10 Pro\\Downloads\\chromedriver"
+CHROMEDRIVER_PATH = os.getcwd() + "\\chromedriver"
 browser = webdriver.Chrome(CHROMEDRIVER_PATH, options=options)
 
 
