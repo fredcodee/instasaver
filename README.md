@@ -22,7 +22,7 @@
 ![alt text](https://github.com/fredcodee/instasaver/blob/master/st6.png)
 5. :+1:
 
-*coded by fredcode :simple_smile:*
+*coded by fredcode* :simple_smile:
 
 
 
