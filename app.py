@@ -28,12 +28,6 @@ def get_piclink():
   n = http_contents.find('img', class_='FFVAD')
   return(n['src'])
 
-try:
-  get_piclink()
-except:
-  print("sorry image url not supported or imgae not found")
-
-
 #download picture
 try:
   url=get_piclink()
